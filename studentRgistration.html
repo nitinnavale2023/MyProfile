@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Registration Form </title>
+    <style>
+        label{
+            color: rgb(7, 220, 228);
+        }
+      input[type="text"] ,input[type="number"]{
+            color: aqua;
+            border: 1px solid rgb(245, 49, 49);
+            width: 200px;
+            height: 25px;
+            border-radius: 20px ;
+            text-transform: capitalize;
+        }
+        /* input[type="number"] {
+            color: rgb(59, 240, 240);
+            border: 1px solid rgb(245, 49, 49);
+            width: 200px;
+            height: 25px;
+            border-radius: 20px ;
+            text-transform: capitalize;
+        } */
+        input[type="checkbox"]{
+            color: blueviolet;
+            width: 50px;
+            height: 10px;
+            border-radius: 40px;
+        }
+        button:hover{
+            background-color: chocolate;
+
+        }
+        button[type="submit"]{
+            border-radius: 10px;
+            color: rgb(131, 12, 50);
+            width: 80px;
+            height: 25px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        button[type="reset"]{
+            
+            border-radius: 10px;
+            color: rgb(131, 12, 50);
+            width: 90px;
+            height: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h3> Student Registration Form </h3>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label> Fist Name </label></td>
+                    <td><input type="text" placeholder="capilal later only" required></td>
+                </tr>
+                <tr>
+                    <td><label> Last Name </label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+
+                    <td><label> Mobile No </label></td>
+                    <td><input type="number" placeholder=" max 10 digits" required><br></td>
+                </tr>
+                <tr>
+
+                    <td><label>Password </label></td>
+                    <td><input type="password" ><br></td>
+                </tr>
+                <tr>
+
+                    <td><label> Date of Birth </label></td>
+                    <td><input type="date"><br></td>
+                </tr>
+                <tr>
+
+                    <td><label> available in week </label></td>
+                    <td><input type="week" ><br></td>
+                </tr>
+                <tr>
+
+                    <td><label> available in time </label></td>
+                    <td><input type="time"><br></td>
+                </tr>
+                <tr>
+
+                    <td><label> Profile Photo </label></td>
+                    <td><input type="file"><br></td>
+                </tr>
+                <tr> 
+                    <td><label>Graduation  </label> </td>
+                    <td> 
+                        <select>
+                            <option> BE </option>
+                            <option> MCA </option>
+                            <option> BCA  </option>
+                            <option> BSC </option>
+                            <option> B.Tech</option>
+                            <option> BCS </option>
+                            <option> MSC </option>
+                        </select>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td> <label> Select Gender </label> </td>
+                    <td> 
+                        <input type="radio" name="gender"> <label> Male</label>
+                        <input type="radio" name="gender"> <label> Female </label>
+                        <input type="radio" name="gender"> <label> Others </label>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td> <label> Select Training </label> </td>
+                    <td> 
+                       <input type="checkbox"> <label> Angular </label>
+                       <input type="checkbox"> <label> React </label>
+                       <input type="checkbox"> <label> Java </label>
+                       <input type="checkbox"> <label> Data Science </label>
+                       <input type="checkbox"> <label> Manual + Automation Testing </label>
+                    </td>
+                  </tr>
+                <tr>
+
+                    <td><label> Age </label></td>
+                    <td><input type="number" placeholder="only no" ></td>
+                </tr>
+                <tr>
+                    <td><label> State </label></td>
+                    <td><input type="text" value="MH"></td>
+                </tr>
+                <tr>
+                    <td> <label> Present Address </label> </td>
+                    <td> <textarea rows="7" cols="40">  </textarea> </td>
+                  </tr>
+                <tr>
+                    <td> <button type="submit" > Register </td>
+                    <td><button type="reset"> clear All </td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+    </form>
+</body>
+
+</html>

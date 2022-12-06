@@ -29,10 +29,19 @@
       nav a {
         text-shadow: 5px 4px 8px rgb(24, 23, 23);
       }
-      footer i,
-      header i {
-        color: brown;
+      footer i,header i {
+        color: rgb(248, 34, 159);
       }
+        #footer li{
+        display: inline-block;
+        width: 80px;
+        /* background-color: rgb(238, 168, 168); */
+      }
+
+      /* #footer li{
+        display: none;
+        width: 80px;
+      } */
     </style>
   </head>
   <body>
@@ -55,13 +64,21 @@
 
     <iframe width="900px" height="500px" name="myFrame"></iframe> <br />
     <footer>
-      <b> Follow me </b>
+      <ul id="footer">
+        <li> Follow me</li>
+        <li> <i class="fa fa-linkedin-square" aria-hidden="true"> </i>
+          <li> <i class="fa fa-google" aria-hidden="true"></i> </li>
+          <li> <i class="fa fa-instagram" aria-hidden="true"></i> </li>
+          <li> <i class="fa fa-facebook-square" aria-hidden="true"></i> </li>
+        </li>
+      </ul>
+      <!-- <b> Follow me </b>
       <i class="fa fa-linkedin-square" aria-hidden="true"></i>
 
       <i class="fa fa-google" aria-hidden="true"></i>
       <i class="fa fa-instagram" aria-hidden="true"></i>
 
-      <i class="fa fa-facebook-square" aria-hidden="true"></i>
+      <i class="fa fa-facebook-square" aria-hidden="true"></i> -->
     </footer>
   </body>
 </html>
